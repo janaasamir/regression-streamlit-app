@@ -14,11 +14,12 @@ Users can upload datasets, preprocess data, train regression models, evaluate pe
 This application provides an end-to-end workflow for regression tasks, including:
 
 - Uploading CSV datasets  
-- Handling missing values, duplicates, and outliers  
+- Handling missing values, duplicates
+- Visualize numeric feature boxplots
 - Scaling numeric features (MinMax, Standard, Robust)  
-- Encoding categorical variables (Label, One-Hot, Ordinal – coming soon)  
+- Encoding categorical variables (Label, One-Hot, Ordinal)  
 - Splitting data into training and testing sets  
-- Training regression models (Linear, Ridge, Lasso, SGD, KNN)  
+- Train KNN or linear-family regressors (Linear, Lasso, Ridge, SGD)  
 - Displaying model performance (MAE, MSE)  
 - Downloading the trained model as a `.pkl` file  
 
